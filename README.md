@@ -21,8 +21,6 @@ Mục tiêu là xây dựng một trang web súc tích, trực quan, không làm
 Dự án đã được deploy tại:
 **[https://huangzuu0211.github.io/web12-12f2-g09-formula1/](https://huangzuu0211.github.io/web12-12f2-g09-formula1/)**
 
-Chỉ cần mở link là xem được ngay.
-
 ### Chạy local
 
 1. Clone repository qua GitHub.
@@ -33,13 +31,13 @@ Chỉ cần mở link là xem được ngay.
 
 | Thành viên   | Vai trò                         |
 | ------------ | ------------------------------- |
-| Vũ Minh Hoàng | HTML, CSS, UI layout |
-| Nguyễn Phan Minh Hương | Nội dung, hình ảnh |
+| Vũ Minh Hoàng | CSS, Tìm hình ảnh |
+| Nguyễn Phan Minh Hương | HTML, Viết nội dung báo cáo |
 
 ## Phân công công việc
 
 **Vũ Minh Hoàng:**
-Thiết kế bố cục, style, màu sắc, dựng layout bằng HTML và hoàn thiện CSS.
+Thiết kế bố cục, style, màu sắc, và hoàn thiện CSS.
 
 **Nguyễn Phan Minh Hương:**
-Hoàn thiện nội dung F1, kiểm thử và chỉnh lỗi.
+Hoàn thiện nội dung F1, dựng layout bằng HTML, và soạn báo cáo.

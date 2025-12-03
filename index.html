@@ -278,13 +278,13 @@
             <div class="w3-col m12 s12">
                 <form class="info-card contact-form">
                     <label>Tên</label>
-                    <input class="w3-input input-rounded w3-margin-bottom" type="text" placeholder="Tên của bạn" required>
+                    <input class="w3-input name="name" input-rounded w3-margin-bottom" type="text" placeholder="Tên của bạn" required>
 
                     <label>Email</label>
-                    <input class="w3-input input-rounded w3-margin-bottom" type="email" placeholder="Email" required>
+                    <input class="w3-input input-rounded w3-margin-bottom" type="email" name="email" placeholder="Email" required>
 
                     <label>Chặng đua yêu thích</label>
-                        <select class="w3-select input-rounded w3-margin-bottom" required>
+                        <select class="w3-select input-rounded w3-margin-bottom" name="favorite-gp" required>
                         <option value="" disabled selected>Chọn 1 Grand Prix</option>
                         <option value="australia">Australian Grand Prix</option>
                         <option value="china">Chinese Grand Prix</option>
@@ -313,10 +313,9 @@
                     </select>
 
                     <label>Lời nhắn</label>
-                    <textarea class="w3-input input-rounded w3-margin-bottom" rows="3"
-                        placeholder="Ví dụ: Giải thích giúp chiến thuật pit 2-stop vs 1-stop...">
-                    </textarea>
-                    <button class="w3-button hero-btn w3-round-xxlarge w3-block">
+                    <textarea class="w3-input input-rounded w3-margin-bottom" name="message" rows="3"
+                        placeholder="Ví dụ: Giải thích giúp chiến thuật pit 2-stop vs 1-stop..."></textarea>
+                    <button type="submit" class="w3-button hero-btn w3-round-xxlarge w3-block">
                         Gửi
                     </button>
                 </form>
@@ -334,3 +333,4 @@
 
 </body>
 </html>
+

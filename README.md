@@ -19,7 +19,7 @@ Mục tiêu là xây dựng một trang web súc tích, trực quan, không làm
 ### Chạy trực tiếp
 
 Dự án đã được deploy tại:
-****
+**https://huangzuu0211.github.io/web12-12f2-g09-formula1/**
 
 ### Chạy local
 

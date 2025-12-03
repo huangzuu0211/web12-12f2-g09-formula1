@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>F1 Beginner</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="w3-black">
+  <!-- NAV -->
+  <div class="w3-top">
+    <div class="w3-bar nav-bar">
+      <a href="#home" class="w3-bar-item w3-button w3-wide nav-logo">
+        F1 GUIDE
+      </a>
+
+      <div class="w3-right w3-hide-small">
+        <a href="#about" class="w3-bar-item w3-button nav-link">Giới thiệu</a>
+        <a href="#weekend" class="w3-bar-item w3-button nav-link">Race Weekend</a>
+        <a href="#teams" class="w3-bar-item w3-button nav-link">Đội / Tay đua</a>
+        <a href="#gallery" class="w3-bar-item w3-button nav-link">Gallery</a>
+        <a href="#contact" class="w3-bar-item w3-button nav-link">Contact</a>
+      </div>
+
+      <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+         onclick="toggleMenu()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- MENU MOBILE -->
+  <div id="mobileNav" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium mobile-nav">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleMenu()">Giới thiệu</a>
+    <a href="#weekend" class="w3-bar-item w3-button" onclick="toggleMenu()">Race Weekend</a>
+    <a href="#teams" class="w3-bar-item w3-button" onclick="toggleMenu()">Đội / Tay đua</a>
+    <a href="#gallery" class="w3-bar-item w3-button" onclick="toggleMenu()">Gallery</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleMenu()">Contact</a>
+  </div>
+
+  <!-- HERO -->
+  <header id="home" class="hero w3-display-container">
+    <img src="https://i.ytimg.com/vi/y42PI9peurI/maxresdefault.jpg"
+         class="hero-img" alt="F1 Racing">
+    
+    <div class="w3-display-middle w3-center hero-content">
+      <h1 class="w3-xxlarge w3-text-white hero-title">
+        Giới thiệu về F1 cho Người Mới
+      </h1>
+      <p class="w3-large w3-text-light-grey">
+        Hiểu nhanh – Theo kịp mùa giải.
+      </p>
+      <a href="#about" class="w3-button hero-btn w3-round-xxlarge w3-padding-large">
+        Bắt đầu
+      </a>
+    </div>
+  </header>
+
+  <!-- CONTENT -->
+  <div class="w3-content" style="max-width:1300px">
+
+    <!-- ABOUT -->
+    <section id="about" class="w3-padding-64">
+      <h2 class="section-title">F1 là gì?</h2>
+      <p class="section-desc">
+        F1 (Formula 1) là giải đua xe một chỗ ngồi ở cấp độ cao nhất của môn đua xe thể thao. 
+        Mỗi mùa giải gồm nhiều chặng đua (Grand Prix) diễn ra tại nhiều quốc gia khác nhau, từ đường đua chuyên dụng cho tới các đường phố được cải tạo tạm thời.
+      </p>
+      <p class="section-desc">
+        Điểm khiến F1 khác biệt nằm ở ba yếu tố kết hợp: tốc độ rất cao, xe đua được phát triển như một dự án công nghệ và chiến thuật thi đấu phức tạp. 
+        Một chặng đua không chỉ là cuộc so tài giữa các tay đua trên đường, mà còn là cuộc đua về dữ liệu, chiến lược và khả năng phối hợp của cả đội ngũ kỹ thuật phía sau.
+      </p>
+    </section>
+
+    <!-- WEEKEND STRUCTURE -->
+    <section id="weekend" class="w3-padding-64 w3-light-grey section-box">
+      <h2 class="section-title-dark">Một cuối tuần F1 diễn ra thế nào?</h2>
+
+      <div class="w3-row-padding w3-margin-top">
+        <div class="w3-col m4 s12">
+          <div class="info-card info-card-light">
+            <p class="info-icon">
+              <i class="fa-solid fa-gauge-high"></i>
+            </p>
+            <h3>Ngày 1 - Practice</h3>
+            <p>Kiểm tra xe, lốp, đường đua, thu thập dữ liệu setup.</p>
+          </div>
+        </div>
+        <div class="w3-col m4 s12">
+          <div class="info-card info-card-light">
+            <p class="info-icon">
+              <i class="fa-solid fa-stopwatch"></i>
+            </p>
+            <h3>Ngày 2 - Qualifying</h3>
+            <p>Phân hạng, quyết định vị trí xuất phát – một vòng chạy tốt cứu cả cuộc đua.</p>
+          </div>
+        </div>
+        <div class="w3-col m4 s12">
+          <div class="info-card info-card-light">
+            <p class="info-icon">
+              <i class="fa-solid fa-flag-checkered"></i>
+            </p>
+            <h3>Ngày 3 - Race</h3>
+            <p>Đường dài, pit stop, chiến thuật, quản lý lốp và nhiên liệu để tranh podium.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAMS / DRIVERS -->
+    <section id="teams" class="w3-padding-64">
+        <h2 class="section-title">Bảng xếp hạng F1 2025</h2>
+
+        <div class="w3-row-padding w3-margin-top standings-row">
+            <!-- BXH Tay đua -->
+            <div class="w3-col m6 s12">
+                <div class="info-card standings-card">
+                    <h3>Drivers' Championship</h3>
+                    <table class="standings-table">
+                    <thead>
+                        <tr>
+                        <th>Hạng</th>
+                        <th>Tay đua</th>
+                        <th>Đội</th>
+                        <th>Điểm</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <td>1</td><td>Lando Norris</td><td>McLaren</td><td>408</td>
+                        </tr>
+                        <tr>
+                        <td>2</td><td>Max Verstappen</td><td>Red Bull Racing</td><td>396</td>
+                        </tr>
+                        <tr>
+                        <td>3</td><td>Oscar Piastri</td><td>McLaren</td><td>392</td>
+                        </tr>
+                        <tr>
+                        <td>4</td><td>George Russell</td><td>Mercedes</td><td>309</td>
+                        </tr>
+                        <tr>
+                        <td>5</td><td>Charles Leclerc</td><td>Ferrari</td><td>230</td>
+                        </tr>
+                        <tr>
+                        <td>6</td><td>Lewis Hamilton</td><td>Ferrari</td><td>152</td>
+                        </tr>
+                        <tr>
+                        <td>7</td><td>Kimi Antonelli</td><td>Mercedes</td><td>150</td>
+                        </tr>
+                        <tr>
+                        <td>8</td><td>Alexander Albon</td><td>Williams</td><td>73</td>
+                        </tr>
+                        <tr>
+                        <td>9</td><td>Carlos Sainz</td><td>Williams</td><td>64</td>
+                        </tr>
+                        <tr>
+                        <td>10</td><td>Isack Hadjar</td><td>Racing Bulls</td><td>51</td>
+                        </tr>
+                    </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- BXH Đội đua -->
+            <div class="w3-col m6 s12">
+                <div class="info-card standings-card">
+                    <h3>Constructors' Championship</h3>
+                    <table class="standings-table">
+                        <thead>
+                            <tr>
+                            <th>Hạng</th>
+                            <th>Đội</th>
+                            <th>Điểm</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <td>1</td><td>McLaren</td><td>800</td>
+                            </tr>
+                            <tr>
+                            <td>2</td><td>Mercedes</td><td>459</td>
+                            </tr>
+                            <tr>
+                            <td>3</td><td>Red Bull Racing</td><td>426</td>
+                            </tr>
+                            <tr>
+                            <td>4</td><td>Ferrari</td><td>382</td>
+                            </tr>
+                            <tr>
+                            <td>5</td><td>Williams</td><td>137</td>
+                            </tr>
+                            <tr>
+                            <td>6</td><td>Racing Bulls</td><td>92</td>
+                            </tr>
+                            <tr>
+                            <td>7</td><td>Aston Martin</td><td>80</td>
+                            </tr>
+                            <tr>
+                            <td>8</td><td>Haas F1 Team</td><td>73</td>
+                            </tr>
+                            <tr>
+                            <td>9</td><td>Kick Sauber</td><td>68</td>
+                            </tr>
+                            <tr>
+                            <td>10</td><td>Alpine</td><td>22</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY + CAROUSEL -->
+    <section id="gallery" class="w3-padding-64 w3-light-grey section-box">
+      <h2 class="section-title-dark">Khoảnh khắc F1</h2>
+
+      <div class="carousel-container">
+        <button class="carousel-btn prev" onclick="changeSlide(-1)">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+
+        <div class="carousel-inner">
+          <img class="carousel-slide" 
+               src="https://legacymedia.sportsplatform.io/images_root/slides/photos/000/418/149/1228294_original.jpg?1285764850"
+               alt="Màn ăn mừng độc đáo sau cuộc đua." 
+               onclick="openModal(this)">
+          <img class="carousel-slide"
+               src="https://d2n9h2wits23hf.cloudfront.net/image/v1/static/6057949432001/2b479f30-c582-420b-865a-930efffb2a0a/f734876c-0ac0-43d5-920d-f71c0e9f4320/864x486/match/image.jpg"
+               alt="Pha va chạm nguy hiểm của 2 tay đua."
+               onclick="openModal(this)">
+          <img class="carousel-slide"
+               src="https://www.motorsinside.com/en/wp-content/uploads/sites/2/2024/07/1500_edito_09DTWWmjefquaGsMqE99kgYf4O7KORexIWkpMPHujTKZg2_kcJRNPfHNTqB_KiEhFekE8hwIxxJ7ormWgOPvNJ_zLsk3g5lssVso.webp"
+               alt="Màn bắn champagne trên bục podium sau cuộc đua."
+               onclick="openModal(this)">
+        </div>
+
+        <button class="carousel-btn next" onclick="changeSlide(1)">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+
+      <div class="carousel-dots">
+        <span class="dot" onclick="goToSlide(0)"></span>
+        <span class="dot" onclick="goToSlide(1)"></span>
+        <span class="dot" onclick="goToSlide(2)"></span>
+      </div>
+    </section>
+
+    <!-- MODAL -->
+    <div id="imgModal" class="w3-modal modal-bg" onclick="closeModal()">
+      <div class="w3-modal-content modal-content w3-animate-zoom" onclick="event.stopPropagation()">
+        <span class="w3-button modal-close" onclick="closeModal()">&times;</span>
+        <img id="modalImg" class="modal-img">
+        <p id="modalCaption" class="modal-caption"></p>
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+    <section id="contact" class="w3-padding-64">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="w3-row-padding w3-margin-top contact-stack">
+            <!-- Card thông tin TRÊN -->
+            <div class="w3-col m12 s12">
+                <div class="info-card">
+                    <h3>Thông tin</h3>
+                    <p><i class="fa-solid fa-location-dot"></i> LSTS</p>
+                    <p><i class="fa-solid fa-envelope"></i> example@gmail.com</p>
+                </div>
+            </div>
+
+            <!-- Form -->
+            <div class="w3-col m12 s12">
+                <form class="info-card contact-form">
+                    <label>Tên</label>
+                    <input class="w3-input input-rounded w3-margin-bottom" type="text" placeholder="Tên của bạn" required>
+
+                    <label>Email</label>
+                    <input class="w3-input input-rounded w3-margin-bottom" type="email" placeholder="Email" required>
+
+                    <label>Chặng đua yêu thích</label>
+                        <select class="w3-select input-rounded w3-margin-bottom" required>
+                        <option value="" disabled selected>Chọn 1 Grand Prix</option>
+                        <option value="australia">Australian Grand Prix</option>
+                        <option value="china">Chinese Grand Prix</option>
+                        <option value="japan">Japanese Grand Prix</option>
+                        <option value="bahrain">Bahrain Grand Prix</option>
+                        <option value="saudi_arabia">Saudi Arabian Grand Prix</option>
+                        <option value="miami">Miami Grand Prix</option>
+                        <option value="emilia_romagna">Emilia-Romagna Grand Prix</option>
+                        <option value="monaco">Monaco Grand Prix</option>
+                        <option value="spain">Spanish Grand Prix</option>
+                        <option value="canada">Canadian Grand Prix</option>
+                        <option value="austria">Austrian Grand Prix</option>
+                        <option value="great_britain">British Grand Prix</option>
+                        <option value="belgium">Belgian Grand Prix</option>
+                        <option value="hungary">Hungarian Grand Prix</option>
+                        <option value="netherlands">Dutch Grand Prix</option>
+                        <option value="italy">Italian Grand Prix</option>
+                        <option value="azerbaijan">Azerbaijan Grand Prix</option>
+                        <option value="singapore">Singapore Grand Prix</option>
+                        <option value="united_states">United States Grand Prix</option>
+                        <option value="mexico">Mexico City Grand Prix</option>
+                        <option value="brazil">São Paulo Grand Prix</option>
+                        <option value="las_vegas">Las Vegas Grand Prix</option>
+                        <option value="qatar">Qatar Grand Prix</option>
+                        <option value="abu_dhabi">Abu Dhabi Grand Prix</option>
+                    </select>
+
+                    <label>Lời nhắn</label>
+                    <textarea class="w3-input input-rounded w3-margin-bottom" rows="3"
+                        placeholder="Ví dụ: Giải thích giúp chiến thuật pit 2-stop vs 1-stop...">
+                    </textarea>
+                    <button class="w3-button hero-btn w3-round-xxlarge w3-block">
+                        Gửi
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+  <!-- FOOTER -->
+  <footer class="w3-center w3-padding-32 footer">
+    <p class="w3-text-grey">© 2025 – 2 chú heo</p>
+  </footer>
+
+  <!-- JS ngoài -->
+  <script src="script.js"></script>
+
+</body>
+</html>

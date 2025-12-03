@@ -1,6 +1,3 @@
-/* ===========================
-   COLOR VARIABLES
-   =========================== */
 :root {
   --color-bg-main: #000000;
   --color-text-main: #ffffff;
@@ -24,9 +21,7 @@
   --color-row-hover: #242424;
 }
 
-/* ===========================
-   BASE
-   =========================== */
+/* BASE */
 body, h1, h2, h3, p, label {
   font-family: "Montserrat", sans-serif;
 }
@@ -35,9 +30,7 @@ body {
   background-color: var(--color-bg-main);
 }
 
-/* ===========================
-   NAVBAR
-   =========================== */
+/* NAVBAR */
 .nav-bar {
   background: var(--color-glass-bg);
   backdrop-filter: blur(12px);
@@ -76,9 +69,7 @@ body {
   margin: 8px;
 }
 
-/* ===========================
-   HERO
-   =========================== */
+/* HERO */
 .hero {
   margin-top: 0;
   width: 100%;
@@ -164,9 +155,7 @@ body {
   padding-bottom: 48px !important;
 }
 
-/* ===========================
-   INFO CARDS
-   =========================== */
+/* INFO CARDS */
 .info-card {
   background: var(--color-card-dark);
   padding: 20px 20px 18px;
@@ -202,9 +191,7 @@ body {
   color: var(--color-red);
 }
 
-/* ===========================
-   STANDINGS TABLE
-   =========================== */
+/* STANDINGS TABLE */
 .standings-row {
   margin-top: 24px;
   padding: 0 20px;
@@ -274,9 +261,7 @@ body {
   background: var(--color-row-hover);
 }
 
-/* ===========================
-   FORM / CONTACT
-   =========================== */
+/* FORM / CONTACT */
 .contact-form label {
   font-size: 14px;
   color: #dddddd;
@@ -305,9 +290,7 @@ body {
   margin-top: 16px;
 }
 
-/* ===========================
-   CAROUSEL / GALLERY
-   =========================== */
+/* CAROUSEL / GALLERY */
 .carousel-container {
   position: relative;
   margin: 24px auto 12px;
@@ -381,9 +364,7 @@ body {
   background: var(--color-red);
 }
 
-/* ===========================
-   MODAL
-   =========================== */
+/* MODAL */
 .modal-bg {
   background-color: rgba(0, 0, 0, 0.85);
 }
@@ -418,9 +399,7 @@ body {
   top: 6px;
 }
 
-/* ===========================
-   FOOTER
-   =========================== */
+/* FOOTER */
 .footer {
   margin-top: 40px;
 }
@@ -429,9 +408,7 @@ footer p {
   font-size: 13px;
 }
 
-/* ===========================
-   SCROLL OFFSET FOR ANCHORS
-   =========================== */
+/* SCROLL */
 #teams,
 #about,
 #contact {
@@ -442,9 +419,7 @@ footer p {
     scroll-margin-top: 80px;
 }
 
-/* ===========================
-   RESPONSIVE
-   =========================== */
+/* RESPONSIVE */
 @media (max-width: 600px) {
   .hero {
     margin-top: 72px;

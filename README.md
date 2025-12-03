@@ -4,13 +4,12 @@
 
 ## Chủ đề dự án
 
-Nội dung tập trung giải thích những yếu tố cơ bản của F1:
+Nội dung:
 
-* Đội đua và tay đua hoạt động thế nào
+* Giới thiệu về F1
 * Cấu trúc một cuối tuần đua (Practice – Qualifying – Race)
-* Các yếu tố kỹ thuật của xe F1
-* Chiến thuật: pit stop, lốp, thời gian, dữ liệu
-* Kiến thức nền tảng dành cho người mới xem F1
+* Bảng xếp hạng tay đua & đội đua ở mùa giải 2025 (trước chặng Abu Dhabi)
+* F1 Moments
 
 Mục tiêu là xây dựng một trang web súc tích, trực quan, không làm người mới bị “ngợp”.
 

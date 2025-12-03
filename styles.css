@@ -28,6 +28,7 @@ body, h1, h2, h3, p, label {
 
 body {
   background-color: var(--color-bg-main);
+  color: var(--color-text-main);
 }
 
 /* NAVBAR */
@@ -446,3 +447,4 @@ footer p {
     font-size: 13px;
   }
 }
+
